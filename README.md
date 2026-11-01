@@ -4,11 +4,14 @@ A full web browser for BYD DiLink head units (Atto 3, Seal, Dolphin, Sealion, Ha
 Big touch buttons, a wide-screen desktop-site mode, and audio that keeps playing in the background.
 
 ## Features
+- **Multiple tabs (up to 8).** Tabs are shown along the top. A song keeps playing in one tab while you browse in another. A 🔊 on a tab means it's playing. Links that open a new window open as a new tab, and pop-up spam is blocked.
+- **"Now playing" notification** with ⏮ ⏯ ⏭ ✕ buttons. The **steering-wheel media buttons** work too. Tap the notification to jump back to the tab that's playing.
+- **Keeps playing in the background.** Music doesn't stop when you open Maps or the BYD home screen, or when you press Back.
+- **Light.** No extra libraries, and the release build is shrunk, so the APK should be well under 1 MB. Background tabs that aren't playing are paused. When memory is low they are unloaded and reload when you open them. Saved tabs only load when you first open them.
 - **Browse anything.** Full Chromium WebView with an address bar, Google search, back/forward/reload/home, and downloads.
 - **Big buttons** sized for a car touchscreen. Text is 115% size.
 - **Desktop / mobile site toggle** (🖥 / 📱). Desktop is the default because the screen is wide.
 - **Fullscreen video** (YouTube, Netflix…) and an immersive mode (⛶) that hides the toolbar.
-- **Background audio.** Music and videos keep playing when you switch to Maps or the BYD home screen.
 - **🎤 Voice search.** Say "youtube dot com" or "petrol pumps near me".
 - **🔊 Audio-only mode.** Turns the screen black and keeps the sound playing. Press and hold to bring the screen back.
 - **Driving check.** When GPS shows the car moving above 15 km/h, the app asks once per trip:
