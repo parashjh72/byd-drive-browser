@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home</title><style>
+body{margin:0;background:#121417;color:#e8eaed;font-family:system-ui,sans-serif;display:flex;flex-direction:column;align-items:center;padding:32px 16px}
+h1{font-weight:600;font-size:34px;margin:8px 0 24px}
+form{width:min(900px,100%);margin-bottom:32px}
+input{width:100%;box-sizing:border-box;font-size:26px;padding:20px 28px;border-radius:40px;border:0;background:#23272e;color:#fff;outline:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:18px;width:min(1100px,100%)}
+a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;height:130px;border-radius:22px;background:#1c1f24;color:#e8eaed;text-decoration:none;font-size:20px}
+a:active{background:#0b5fff}
+.i{font-size:44px}
+</style></head><body>
+<h1>Drive Browser</h1>
+<form onsubmit="var q=document.getElementById('q').value.trim();if(q){location.href=(/^\S+\.\S+$/.test(q)&&q.indexOf(' ')<0)?(/^https?:/.test(q)?q:'https://'+q):'https://www.google.com/search?q='+encodeURIComponent(q)}return false">
+<input id="q" placeholder="Search Google or type a website" autocomplete="off"></form>
+<div class="grid">
+<a href="https://www.youtube.com"><span class="i">▶️</span>YouTube</a>
+<a href="https://music.youtube.com"><span class="i">🎵</span>YT Music</a>
+<a href="https://open.spotify.com"><span class="i">🎧</span>Spotify</a>
+<a href="https://www.google.com/maps"><span class="i">🗺️</span>Maps</a>
+<a href="https://www.netflix.com"><span class="i">🎬</span>Netflix</a>
+<a href="https://www.primevideo.com"><span class="i">📺</span>Prime Video</a>
+<a href="https://www.hotstar.com"><span class="i">⭐</span>Hotstar</a>
+<a href="https://news.google.com"><span class="i">📰</span>News</a>
+<a href="https://www.google.com"><span class="i">🔍</span>Google</a>
+<a href="https://www.wikipedia.org"><span class="i">📚</span>Wikipedia</a>
+<a href="https://web.whatsapp.com"><span class="i">💬</span>WhatsApp Web</a>
+<a href="https://www.plugshare.com"><span class="i">🔌</span>Chargers</a>
+</div></body></html>

@@ -1,0 +1,19 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.bydbrowser.app'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.bydbrowser.app"
+        minSdk 24          // BYD DiLink 3.0+ runs Android 9-12
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug   // installable without a keystore
+        }
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
